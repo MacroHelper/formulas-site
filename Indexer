@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My GitHub Pages Site</title>
+</head>
+<body>
+    <h1>Welcome to My GitHub Pages Site</h1>
+    <p>This is a clean and fresh start for my GitHub Pages site.</p>
+    <section>
+        <h2>Future Content</h2>
+        <p>Placeholder for future content. Stay tuned!</p>
+    </section>
+
+
+<section>
+  <h2>Useful Code for NCM</h2>
+  <p>Here is a formula (more may be added in the future):</p>
+  <pre><code>
+=IFERROR(INDEX('[NCM150 2025 YTD - MACRO.xlsm]Mthly Pivot'!$A$1:$AP$75,
+MATCH(1,('[NCM150 2025 YTD - MACRO.xlsm]Mthly Pivot'!$AP$1:$AP$75="Standard")*
+('[NCM150 2025 YTD - MACRO.xlsm]Mthly Pivot'!$C$1:$C$75=$B7),0),
+MATCH(1,('[NCM150 2025 YTD - MACRO.xlsm]Mthly Pivot'!$A$1:$AQ$1="MAR")*
+('[NCM150 2025 YTD - MACRO.xlsm]Mthly Pivot'!$A$5:$AQ$5="HONI"),0)),0)
+  </code></pre>
+</section>
+
+
+
+</body>
+</html>
