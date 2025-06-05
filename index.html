@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulas and VBA Examples</title>
+</head>
+<body>
+    <h1>Formulas and VBA Examples</h1>
+
+    <h2>Math Formulas</h2>
+    <h3>Quadratic Formula</h3>
+    <p>The solution to ax² + bx + c = 0 is:</p>
+    <p>x = (-b ± √(b² - 4ac)) / 2a</p>
+
+    <h3>Area of a Circle</h3>
+    <p>The area of a circle with radius r is:</p>
+    <p>A = πr²</p>
+
+    <h2>VBA Code Examples</h2>
+    <h3>Copy Data</h3>
+    <pre><code>
+Sub CopyData()
+    Sheets("Sheet1").Range("A1:A10").Copy
+    Sheets("Sheet2").Range("B1").PasteSpecial Paste:=xlPasteValues
+End Sub
+    </code></pre>
+
+    <h3>Sum Range</h3>
+    <pre><code>
+Sub SumRange()
+    Dim total As Double
+    total = Application.WorksheetFunction.Sum(Range("A1:A10"))
+    MsgBox "The total is " & total
+End Sub
+    </code></pre>
+</body>
+</html>
