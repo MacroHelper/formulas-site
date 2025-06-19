@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Macro Helper Formulas - Sample Template</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        code { background-color: #f4f4f4; padding: 0.2em 0.4em; border-radius: 4px; }
+        pre { background-color: #f4f4f4; padding: 1em; border-radius: 4px; overflow-x: auto; }
+        h1, h2, h3 { color: #333; }
+    </style>
+</head>
+<body>
+
+    <!-- This is an internal comment: It will not appear on the web page -->
+
+    <h1>Welcome to Macro Helper Formulas</h1>
+    <p>This is a <strong>sample template</strong> to help you build your GitHub Pages site.</p>
+
+    <h2>📌 Regular Text Section</h2>
+    <p>This section contains regular text. You can write descriptions, explanations, or instructions here.</p>
+    <p>Use <em>italic</em>, <strong>bold</strong>, and <u>underlined</u> text for emphasis.</p>
+
+    <h2>💻 Code Example</h2>
+    <p>Below is a sample Excel formula:</p>
+    <pre><code>=IFERROR(INDEX('[Workbook.xlsm]Sheet1'!$A$1:$Z$100,
+MATCH(1,('[Workbook.xlsm]Sheet1'!$A$1:$A$100="Criteria1")*
+('[Workbook.xlsm]Sheet1'!$B$1:$B$100="Criteria2"),0),
+MATCH("Header", '[Workbook.xlsm]Sheet1'!$1:$1, 0)), 0)</code></pre>
+
+    <h2>🗂️ File Structure</h2>
+    <p>Place your code files in a folder named <code>scripts</code> and your documentation in <code>docs</code>.</p>
+
+    <h2>📝 Notes</h2>
+    <p>Use HTML comments like <code>&lt;!-- This is a comment --&gt;</code> to leave internal notes that won't show on the page.</p>
+
+</body>
+</html>
